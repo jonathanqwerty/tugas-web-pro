@@ -7,4 +7,10 @@ class Biodata extends CI_Controller {
 	{
 		$this->load->view('biodataku');
 	}
+
+	public function penjumlahan($nilai1, $nilai2)
+	{
+		$hasil = $nilai1 + $nilai2;
+		echo $hasil;
+	}
 }
