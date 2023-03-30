@@ -10,7 +10,6 @@ class Biodata extends CI_Controller {
 
 	public function penjumlahan($nilai1, $nilai2)
 	{
-		$hasil = $nilai1 + $nilai2;
-		echo $hasil;
+		echo $this->Model_aritmatika->penjumlahan($nilai1, $nilai2);
 	}
 }

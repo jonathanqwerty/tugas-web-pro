@@ -1,6 +1,6 @@
 <?php
 
-class Model_artitmatika extends CI_Model
+class Model_aritmatika extends CI_Model
 {
     public $nilai1, $nilai2, $hasil;
 
