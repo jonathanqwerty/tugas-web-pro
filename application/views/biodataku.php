@@ -33,10 +33,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         .tulisan {
             font-size: 60px;
         }
+        .scale-up-center{-webkit-animation:scale-up-center .4s cubic-bezier(.39,.575,.565,1.000) both;animation:scale-up-center .4s cubic-bezier(.39,.575,.565,1.000) both}
+        @-webkit-keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="container scale-up-center">
         <div class="title">Jonathan Nathanael</div>
         <div class="text">17200653</div>
         <div class="tulisan">17.6A.26</div>
