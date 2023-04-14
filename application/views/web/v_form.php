@@ -92,6 +92,9 @@
         } else if (!nama.match(namaRegex)) {
             namaError.innerHTML = "Nama MTK hanya boleh mengandung huruf dan spasi!";
             return false;
+        } else if (!nama.leght < 3){
+            namaError.innerHTML = "Nama MTK yang anda masukan kurang dari 3";
+            return false;
         }
 
         if (sks === "") {
